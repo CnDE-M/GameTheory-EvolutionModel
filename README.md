@@ -1,10 +1,11 @@
 # Iterated Models of 3 classic game in game Theory
-
+---------------------------------------------------------------------------------------------------
 This project analyzed 3 types of classic game theory models: 
 + "Prisoners' Dilemma" - 1 pure strategy
 + "Battle of Sex" - 2 pure strategies
 + "Paper, Scissor and Rock" - mix strategy
 
+---------------------------------------------------------------------------------------------------
 The project produced a generalized way of analyzing those game based on **evolution theory** idea. 
 
 First, the project hypothesizes,
@@ -27,13 +28,11 @@ Each game is perfectly defined including:
 
 + **Payoff**:
   gain or lose after both players make choices
-+ Evolution strategy:
-  At the end of each iteration, "Evolution strategy" determine how players update their "Choice strategy" according to the payoffs
-
+  
 + **Iteration**
   The game will continue iterate, until:
-+ If the game has a stable NE, the game will reach equal payoffs for all choices;
-+ If the game keeps fluctuating, we will set a maximum iteration time;
+> If the game has a stable NE, the game will reach equal payoffs for all choices;
+> If the game keeps fluctuating, we will set a maximum iteration time;
 
 + **Evolution Strategy**
 
@@ -47,6 +46,7 @@ Each game is perfectly defined including:
 
 Finally, the model would output plot showing dynamic process each game approaching to strategy that leads to NE.
 
+---------------------------------------------------------------------------------------------------
 The project is a nice tool for fresh in game theory to understand how strategy changing to reach NE directly.
 
 Comparing model result with classic aanalysis result, deficiency, or incompatability of the iteration model to the 3 games are also shown, especially in "Paper, Scissor and Rock" game (See "README_paper_scissor_rock.md").
