@@ -1,8 +1,9 @@
 ## "Paper, Scissor and Rock"
 + mix strategy
 
-1. Introduction
 
+------------------------
+1. Introduction
 The "Paper, Scissor and Rock" game is a classic game that doesn't have a pure strategy. To reach NE, we will choose to use mix strategy, that we make choice according to a percentage, and this also indicates that the strategy will work only if we perform the game iterally.
 
 Payoff here means scores player get. The higher payoff is, the better the result is.
@@ -16,8 +17,10 @@ Below are payoff table:
 | A | (2, 0)| (0, 1) |
 | B | (0, 1) | (2, 0) |
 
-2. Iteration Result
 
+
+------------------------
+2. Iteration Result
 The results model produced are not as expected. For this game, players are expected to perform mix strategies, that is 
 + player 1: (A, B) = (0.5, 0.5) 
 + player 2: (A, B) = (0.5, 0.5)  
