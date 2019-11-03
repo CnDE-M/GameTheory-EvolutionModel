@@ -37,8 +37,8 @@ To reach NE, the "Prisoners' Dilemma" game has 1 pure dorminant strategy: **("Y"
 2. Iteration Result
 ![image](https://github.com/CnDE-M/Game_Theory_Model_Iteration_strategy/blob/master/prisoners%20dilemma.png)
 
-*Diffferent line colors refer to different players. Each line only refer to the FIRST choice possilibity.
-*In this game, image seperately plot out the possibility of player 1(red)&2(blue) choosing "Y", and it changes through iteration.
+*Diffferent line colors refer to different players. Each line only refer to the FIRST choice possilibity.*
+*In this game, image seperately plot out the possibility of player 1(red)&2(blue) choosing "Y", and it changes through iteration.*
 
 
 From the result, when reaching NE, choice pair is ("Y", "Y"). This result is consistent to pure strategy analysis.
