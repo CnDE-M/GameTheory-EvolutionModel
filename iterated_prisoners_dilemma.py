@@ -1,4 +1,7 @@
 import math
+import random
+import WeightRandomGenerator.py
+
 ## payoff setting
 payoff_YN_Y=0; # in (Y,N) payoff of Y
 payoff_YN_N=10;# in (Y,N) payoff of N
@@ -16,9 +19,7 @@ INITIAL_N=int(0.5*PRISONER_NUM);
 # generatiom: game iteration time
 TOTAL_GENERATION=20;
 
-import WeightRandomGenerator.py
-
-
+## main
 Y_num=INITIAL_Y  # Y number at the start of each generation
 N_num=INITIAL_N  # N number at the start of each generation
 
@@ -65,7 +66,7 @@ for generation in range(TOTAL_GENERATION):
         
         
     
-
+######################## visualize dynamic process ########################
 import matplotlib.pyplot as plt 
 plt.figure(figsize=(16,5))
 plt.title("Dynamic choice distribution in Prisoners's dilemma")
