@@ -16,7 +16,8 @@ Each game is perfectly defined including:
 + **Players**: 
   individuals' number in the group
 
-  > 1000 individuals in the group
+  > individuals number in the group that make choice in each iteration.
+  > 1000, 10000, 100000, ...
 
 + **Choices strategy**:
   ex. for each player's choice X, P(X=1)=0.4, P(X=2)=0.6 
