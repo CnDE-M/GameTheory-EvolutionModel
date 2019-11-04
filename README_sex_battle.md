@@ -1,8 +1,7 @@
-## "Battle of Sex" 
+# "Battle of Sex" 
 + Pure Strategy: 2 dorminant strategies
 
-1. Introduction
-
+## 1. Introduction
 
 In "Battle of Sex", one couple is heading to a place for dating, but for some reason they didn't determine the specific place. 
 They have two choices, either the ideal place for Man or for Woman. 
@@ -24,28 +23,31 @@ Below are payoff table:
 
 To reach NE, players have 2 pure dorminant strategies: **("C","C") & ("S","S")**.
 
-2. Iteration Result
 
+## 2. Iteration Result
+
+> Group Size = 1000, Iteration Time = 20
 The model will randomly produce 3 kinds of dynamic processes:
 
-	(1) "Rock & Water" Relationship: 
-These results are consistent to pure strategy analysis, that the game have 2 pure dorminant strategies
+    (1) "Rock & Water" Relationship: 
+         These results are consistent to pure strategy analysis, that the game have 2 pure dorminant strategies
 
-(M, W): (S, S)
-![](sex_battle_3.png)
 
-(M, W): (C, C)
+![](sex_battle_3.png
+<p align="center">(M, W) = (S, S)</p>
+
 ![](sex_battle_2.png)
+<p align="center">(M, W) = (C, C)</p>
  
-I call these results implying for "compromised relationship". Because to interpret the result, we can see that in the couple:
+I call these results implying for "Rock & Water relationship". Because to interpret, we can see that in the couple there are:
 + **"Rock"** 
 	Strictly following his/her preference, even ignoring the beloved one. 
 + **"Water"**
-	More flexible role in the relationship, hesitate when choosing the lover or his/her interest, even compromise to the beloved one.
+	Play a flexible role, hesitate when choosing between the lover or his/her interest, eventually compromise for the beloved one.
 
-What is fasinating is that you could literally see the "internal fight" from "Water"'s "heart", that they would always first approaching to their preference in the early iteration, but then suddenly make a sharp turn, and eventually cater to what the beloved prefer.
+What is fasinating is that you could literally see the "internal fight" from "Water"'s "heart", that it would first approaching to its preference in the early iteration, but then suddenly make a sharp turn, and eventually cater to what the beloved prefer.
 
-	(2) Counterbalance Relationship
+    (2) Counterbalance Relationship
 This result is not predicted by pure strategy analysis, for (S, C) is not stable.
 > The "stable" means that no players prone to switch his/her choice for better payoff.
 
@@ -63,10 +65,4 @@ More interestingly, if we repeat the game and average the iteration time that fi
 
 
 --------------------------------------------------------------
-Reminded by the "Paper, Scissor and Rock" game, different group number are also checked and see if the result is caused from random factors.
-
-
-Unlike results in "Paper, Scissor and Rock" game, results in "Battle of Sex" are consistent to 2 patterns mentioned above, while results of "Paper, Scissor and Rock" game showed no regulat pattern.
-
-
-BTW, the results above indeed, *Just Like Love* (￣▽￣)""
+<p align="center">BTW, the results above indeed, *Just Like Love* (￣▽￣)""</p>
