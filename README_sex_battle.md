@@ -27,16 +27,17 @@ To reach NE, players have 2 pure dorminant strategies: **("C","C") & ("S","S")**
 ## 2. Iteration Result
 
 > Group Size = 1000, Iteration Time = 20
+
 The model will randomly produce 3 kinds of dynamic processes:
 
     (1) "Rock & Water" Relationship: 
-         These results are consistent to pure strategy analysis, that the game have 2 pure dorminant strategies
+These results are consistent to pure strategy analysis, that the game have 2 pure dorminant strategies
 
 
-![](sex_battle_3.png
+![image](https://github.com/CnDE-M/Game_Theory_Model_Iteration_strategy/blob/master/result_images/sex_battle_3.png)
 <p align="center">(M, W) = (S, S)</p>
 
-![](sex_battle_2.png)
+![image](https://github.com/CnDE-M/Game_Theory_Model_Iteration_strategy/blob/master/result_images/sex_battle_2.png)
 <p align="center">(M, W) = (C, C)</p>
  
 I call these results implying for "Rock & Water relationship". Because to interpret, we can see that in the couple there are:
@@ -51,7 +52,7 @@ What is fasinating is that you could literally see the "internal fight" from "Wa
 This result is not predicted by pure strategy analysis, for (S, C) is not stable.
 > The "stable" means that no players prone to switch his/her choice for better payoff.
 
-![](sex_battle_2.png)
+![image](https://github.com/CnDE-M/Game_Theory_Model_Iteration_strategy/blob/master/result_images/sex_battle_1.png)
 
 Intuitionally, it would be surprised to find the third result, (S, C) choice leads to far less payoff for both players. And when we see into the actual payoff, the first situation will lead to either(5000, 6000) or (6000, 5000), while the second situation only lead to (1000, 1000). Why would it happen?
 
