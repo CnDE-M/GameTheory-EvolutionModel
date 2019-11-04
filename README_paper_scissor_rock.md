@@ -29,28 +29,25 @@ The results model produced are not as expected. For this game, players are expec
 
 Initially group number is set in 1000. The model isn't stable at the best mix strategy above. It will instead prone to one strategy randomly.
 
-![](psr_1000.png)     
+![image](https://github.com/CnDE-M/Game_Theory_Model_Iteration_strategy/blob/master/result_images/psr_1000.png)     
 
 Let's raise group number to 10000
 
-![](psr_10000.png)   
-Well, in the early iteration ( n = ), it is stable around, then gradually slide to a pure strategy. The system is not big enough to resist random factor.
+<p align="center">Group number = 10000; Iteration Time =20, Stable when n = 3</p>
+![image](https://github.com/CnDE-M/Game_Theory_Model_Iteration_strategy/blob/master/result_images/psr_10000.png)   
+Now it is getting a bit of interesting. In the early iteration ( n = ), it is stable around (0.5, 0.5), but then gradually slide to a pure strategy. Perhaps it is because the system's size is not big enough to resist random factor.
 
 Then keep raising!
 
-Group number = 100000
-generation =20
-stable until n =
-![](psr_100000.png)   
+<p align="center">Group number = 100000; Iteration Time =20, Stable when n = 5</p>
+![image](https://github.com/CnDE-M/Game_Theory_Model_Iteration_strategy/blob/master/result_images/psr_100000.png)  
 
-Group number = 1000000
-generation =20
-stable until n =
-![](psr_1000000.png)   
+<p align="center">Group number = 1000000, Iteration Time = 20, Stable when n = 6</p>
+![image](https://github.com/CnDE-M/Game_Theory_Model_Iteration_strategy/blob/master/result_images/psr_1000000.png)  
 
-Group number = 5000000
-generation = 10
-stable until n =
-![](psr_1000000.png)   
+<p align="center">Group number = 2000000, Iteration Time = 10; Stable when n = 6</p>
+![image](https://github.com/CnDE-M/Game_Theory_Model_Iteration_strategy/blob/master/result_images/psr_2000000.png)  
 
-Therefore, to promote the model, the next step is to make model more resistable to random factors.
+......
+
+With the increase of group size, the iteration time when system keeps stable gets a bit of bigger. 
