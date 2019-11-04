@@ -34,7 +34,7 @@ To reach NE, the "Prisoners' Dilemma" game has 1 pure dorminant strategy: **("Y"
 > If one chooses "DENY", I will get better result if I choose "YES"
 > Therefore, whatever the other person's choice, "YES" will always be a better choice.
 
-![image](https://github.com/CnDE-M/Game_Theory_Model_Iteration_strategy/blob/master/prisoners_dilemma_1000.png)
+![image](https://github.com/CnDE-M/Game_Theory_Model_Iteration_strategy/blob/master/result_images/prisoners_dilemma_1000.png)
 
 *Each line only refer to the FIRST choice possilibity. Group Size = 1000; Iteration Time = 10*
 > *In this game, image seperately plot out the possibility of player 1(red)&2(blue) choosing "Y", and it changes through iteration.*
@@ -43,14 +43,14 @@ From the result, when reaching NE, choice pair is ("Y", "Y"). This result is con
 
 However, reminded by the "Paper, Scissor and Rock" game, let's gradiently increase group size to see if the pattern will change
 
-![image](https://github.com/CnDE-M/Game_Theory_Model_Iteration_strategy/blob/master/prisoners_dilemma_10000.png)
+![image](https://github.com/CnDE-M/Game_Theory_Model_Iteration_strategy/blob/master/result_images/prisoners_dilemma_10000.png)
 
 *Group Size = 10000; Iteration Time = 10*
 
-![image](https://github.com/CnDE-M/Game_Theory_Model_Iteration_strategy/blob/master/prisoners_dilemma_100000.png)
+![image](https://github.com/CnDE-M/Game_Theory_Model_Iteration_strategy/blob/master/result_images/prisoners_dilemma_100000.png)
 
 *Group Size = 100000; Iteration Time = 10*
 
-![image](https://github.com/CnDE-M/Game_Theory_Model_Iteration_strategy/blob/master/prisoners_dilemma_500000.png)
+![image](https://github.com/CnDE-M/Game_Theory_Model_Iteration_strategy/blob/master/result_images/prisoners_dilemma_500000.png)
 
 *Group Size = 500000; Iteration Time = 10*
