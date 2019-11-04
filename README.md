@@ -58,3 +58,6 @@ Comparing model result with classic aanalysis result, deficiency, or incompatabi
 
 > + random overwhelming effect:
 > As iterations progress continuously, choice strategy are highly relied on the last iteration payoffs. This would easily leads to overwhelming effect for either of the choices randomly, such that sometimes bad choice unintuitionally can win over goo choice.
+----------------------------
+Therefore, to promote the model, maybe the first step is to increase its resistance to random factor.
+Besides, initial choice strategy for both players are (0.5, 0.5). Change this initial setting may also lead to different result.
