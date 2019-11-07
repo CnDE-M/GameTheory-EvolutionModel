@@ -5,6 +5,8 @@ This project analyzed 3 types of classic game theory models:
 + "Battle of Sex" - 2 pure strategies
 + "Paper, Scissor and Rock" - mix strategy
 
+The project is done under the course "Evolution Biology" in Tongji University, Shanghai, China and online "Game Theory" in Yale University. A LaTex Format final thesis in Chinese is also shown.
+
 ---------------------------------------------------------------------------------------------------
 The project produced a generalized way of analyzing those game based on **evolution theory** idea. 
 
